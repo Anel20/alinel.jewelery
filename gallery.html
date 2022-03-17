@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://i.imgur.com/YVTfEwF.jpg');
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+/* HEADER */
+header {
+  background-color: #9885a4;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* COLUMNS */
+nav {
+  float: left;
+  width: 15%;
+  height: 700px;
+  background: #dacee2;
+  padding: 20px;
+}
+
+/* NAVIGATION, ARTICLE, TABLE */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #ece7ef;
+  height: 700px; 
+}
+
+
+/* FOOTER SPACE */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* FOOTER */
+footer {
+  background-color: #9885a4;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="content">
+<!-- Page content -->'
+
+<br>
+    <header>ALINEL JEWELLERY</header>
+    <br>
+    <section>
+  <nav>
+    <ul><br><br><br><br>
+    <center><a href="сюда ссылку"><button>home</button></a><br><br></center>
+    <center><a href="сюда ссылку"><button>gallery</button></a><br><br></center>
+    <center><a href="сюда ссылку"><button>contact us</button></a><br><br></center>
+        </ul>
+  </nav>
+  
+<article>
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/EvImSnL.jpg">
+    <img src="https://i.imgur.com/EvImSnL.jpg" alt="necklace" width="700" height="600">
+  </a>
+  <div class="desc">Necklace Yellow Gold</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/Msu7mku.jpg">
+    <img src="https://i.imgur.com/Msu7mku.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Ring Yellow Gold</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/GiEZaYC.jpg">
+    <img src="https://i.imgur.com/GiEZaYC.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Ring Yellow Gold</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/amqha3h.jpg">
+    <img src="https://i.imgur.com/amqha3h.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Ring Silver</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/SeCsNFz.jpg">
+    <img src="https://i.imgur.com/SeCsNFz.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Earrings Yellow Gold</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/VFiMku0.jpg">
+    <img src="https://i.imgur.com/VFiMku0.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Ring White Gold</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/wxlhpYg.jpg">
+    <img src="https://i.imgur.com/wxlhpYg.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Ring Titan</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/eX9RMNj.jpg">
+    <img src="https://i.imgur.com/eX9RMNj.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Ring Rose Gold</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.imgur.com/1sW7JNM.jpg">
+    <img src="https://i.imgur.com/1sW7JNM.jpg" alt="ring" width="700" height="600">
+  </a>
+  <div class="desc">Ring Silver</div>
+</div>
+</article>
+</section>
+
+<footer>
+   <h4><br>Everything is made to order. Please use contact us page to place a custom order!<br><br></h4>
+</footer>
+
+</div>
+
+</body>
+</html>
