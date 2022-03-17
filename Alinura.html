@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://i.imgur.com/YVTfEwF.jpg');
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+/* HEADER */
+header {
+  background-color: #9885a4;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* COLUMNS */
+nav {
+  float: left;
+  width: 15%;
+  height: 320px;
+  background: #dacee2;
+  padding: 20px;
+}
+
+/* NAVIGATION, ARTICLE, TABLE */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #ece7ef;
+  height: 320px; 
+}
+
+
+/* FOOTER SPACE */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* FOOTER */
+footer {
+  background-color: #9885a4;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+<div class="content">
+<!-- Page content -->'
+
+<br>
+    <header>ALINEL JEWELLERY</header>
+    <br>
+    <section>
+  <nav>
+    <ul><br><br><br><br>
+    <center><a href="Alinura.html"><button>home</button></a><br><br></center>
+    <center><a href="gallery.html"><button>gallery</button></a><br><br></center>
+    <center><a href="contact.html"><button>contact us</button></a><br><br></center>
+        </ul>
+  </nav>
+  
+   <article>
+    <center><h2 style="color:#663f91">ABOUT US</h2></center>
+    <p > We are Alinura and Anel - two highschool students who dreamt of opening our own little jewelry shop for a very long time. We can finally make that dream a reality and we hope you will like what we make and support us.</p>
+    <center><h3 style="color:#663f91"> What do we sell? </h3></center>
+
+    <center><table style="width:50%">
+  <tr>
+    <th>SILVER</th>
+    <th>GOLD</th>
+    <th>TITANIUM</th>
+  </tr>
+  <tr>
+    <center><td>bracelets<br>
+    rings<br>
+    necklaces<br>
+    earrings</td><center>
+    <td>necklaces<br>
+    rings<br>
+    necklaces<br>
+    earrings</td>
+    <td>bracelets<br>
+    rings<br>
+    necklaces</td>
+  </tr>
+</table></center>
+      </article>
+</section>
+
+<footer>
+    <marquee direction="right"><h4>Thank you for visiting our website!</h4></marquee>
+</footer>
+    
+    </div>
+    <br>
+    
+
+</body>
+</html>
